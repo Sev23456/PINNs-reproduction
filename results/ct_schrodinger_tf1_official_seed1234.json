@@ -1,0 +1,105 @@
+{
+  "experiment": "ct_schrodinger_tf1_official",
+  "seed": 1234,
+  "error_h": 0.0011313947160610364,
+  "error_u": 0.001431393668464692,
+  "error_v": 0.0018289783223654514,
+  "paper_error_h": 0.00197,
+  "absolute_delta_h": 0.0008386052839389636,
+  "relative_ratio_h": 0.5743120386096632,
+  "train_result": {
+    "adam_seconds": 6185.43732047081,
+    "lbfgs_seconds": 787.0201818943024,
+    "adam_logs": [
+      {
+        "iter": 0.0,
+        "loss": 0.7273945212364197,
+        "seconds_since_last_log": 1.1605539321899414
+      },
+      {
+        "iter": 5000.0,
+        "loss": 0.0039528049528598785,
+        "seconds_since_last_log": 597.2074811458588
+      },
+      {
+        "iter": 10000.0,
+        "loss": 0.000716334383469075,
+        "seconds_since_last_log": 602.008483171463
+      },
+      {
+        "iter": 15000.0,
+        "loss": 0.002516981214284897,
+        "seconds_since_last_log": 630.9638292789459
+      },
+      {
+        "iter": 20000.0,
+        "loss": 0.0013962844386696815,
+        "seconds_since_last_log": 634.3012130260468
+      },
+      {
+        "iter": 25000.0,
+        "loss": 0.0013630501925945282,
+        "seconds_since_last_log": 611.0243194103241
+      },
+      {
+        "iter": 30000.0,
+        "loss": 0.0008358239429071546,
+        "seconds_since_last_log": 615.2746028900146
+      },
+      {
+        "iter": 35000.0,
+        "loss": 0.005180465988814831,
+        "seconds_since_last_log": 637.1963105201721
+      },
+      {
+        "iter": 40000.0,
+        "loss": 0.0003628251433838159,
+        "seconds_since_last_log": 623.8006145954132
+      },
+      {
+        "iter": 45000.0,
+        "loss": 0.00019004783825948834,
+        "seconds_since_last_log": 610.3949570655823
+      }
+    ],
+    "lbfgs_callback_evals": 6008,
+    "lbfgs_loss_tail": [
+      1.8501411886973074e-06,
+      1.8501411886973074e-06,
+      1.8501411886973074e-06,
+      1.8501411886973074e-06,
+      1.8501411886973074e-06
+    ],
+    "final_loss": 1.8501411886973074e-06
+  },
+  "config": {
+    "n0": 50,
+    "n_b": 50,
+    "n_f": 20000,
+    "layers": [
+      2,
+      100,
+      100,
+      100,
+      100,
+      2
+    ],
+    "adam_iters": 50000,
+    "tensorflow_version": "1.15.0",
+    "numpy_version": "1.16.6",
+    "protobuf_impl": "python",
+    "cuda_visible_devices": "-1"
+  },
+  "devices": [
+    {
+      "name": "/device:CPU:0",
+      "device_type": "CPU",
+      "physical_device_desc": ""
+    },
+    {
+      "name": "/device:XLA_CPU:0",
+      "device_type": "XLA_CPU",
+      "physical_device_desc": "device: XLA_CPU device"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "runs": [
+    {
+      "experiment": "dt_burgers",
+      "seed": 1234,
+      "error": 0.0003427997354667561,
+      "paper_error": 0.00082,
+      "absolute_delta": 0.0004772002645332439,
+      "relative_ratio": 0.4180484578862879,
+      "train_history": {
+        "adam_losses": [
+          {
+            "step": 1,
+            "loss": 62593.5546875
+          },
+          {
+            "step": 1000,
+            "loss": 394.6807861328125
+          },
+          {
+            "step": 2000,
+            "loss": 32.43642807006836
+          },
+          {
+            "step": 3000,
+            "loss": 5.4663825035095215
+          },
+          {
+            "step": 4000,
+            "loss": 4.265093803405762
+          },
+          {
+            "step": 5000,
+            "loss": 2.354799509048462
+          },
+          {
+            "step": 6000,
+            "loss": 1.889370083808899
+          },
+          {
+            "step": 7000,
+            "loss": 1.1278729438781738
+          },
+          {
+            "step": 8000,
+            "loss": 0.9511923789978027
+          },
+          {
+            "step": 9000,
+            "loss": 0.5579572916030884
+          },
+          {
+            "step": 10000,
+            "loss": 1.3913437128067017
+          }
+        ],
+        "adam_seconds": 45.619550466537476,
+        "lbfgs_seconds": 203.899169921875,
+        "lbfgs_result": {
+          "success": true,
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "nit": 7709,
+          "nfev": 8371,
+          "fun": 0.005599921569228172
+        }
+      },
+      "config": {
+        "q": 500,
+        "skip": 80,
+        "dt": 0.8,
+        "n_points": 250,
+        "hidden_layers": 3,
+        "width": 50
+      }
+    },
+    {
+      "experiment": "dt_burgers",
+      "seed": 1235,
+      "error": 0.0004481939777501501,
+      "paper_error": 0.00082,
+      "absolute_delta": 0.0003718060222498499,
+      "relative_ratio": 0.5465780216465245,
+      "train_history": {
+        "adam_losses": [
+          {
+            "step": 1,
+            "loss": 62504.69140625
+          },
+          {
+            "step": 1000,
+            "loss": 337.7037048339844
+          },
+          {
+            "step": 2000,
+            "loss": 18.845352172851562
+          },
+          {
+            "step": 3000,
+            "loss": 6.520696640014648
+          },
+          {
+            "step": 4000,
+            "loss": 3.0951969623565674
+          },
+          {
+            "step": 5000,
+            "loss": 7.882143020629883
+          },
+          {
+            "step": 6000,
+            "loss": 3.063433885574341
+          },
+          {
+            "step": 7000,
+            "loss": 6.833156585693359
+          },
+          {
+            "step": 8000,
+            "loss": 1.0250332355499268
+          },
+          {
+            "step": 9000,
+            "loss": 0.528301477432251
+          },
+          {
+            "step": 10000,
+            "loss": 15.321341514587402
+          }
+        ],
+        "adam_seconds": 52.345428466796875,
+        "lbfgs_seconds": 228.80081248283386,
+        "lbfgs_result": {
+          "success": true,
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "nit": 8604,
+          "nfev": 9226,
+          "fun": 0.0034524293150752783
+        }
+      },
+      "config": {
+        "q": 500,
+        "skip": 80,
+        "dt": 0.8,
+        "n_points": 250,
+        "hidden_layers": 3,
+        "width": 50
+      }
+    },
+    {
+      "experiment": "dt_burgers",
+      "seed": 1236,
+      "error": 0.0009667814181289108,
+      "paper_error": 0.00082,
+      "absolute_delta": 0.00014678141812891085,
+      "relative_ratio": 1.179001729425501,
+      "train_history": {
+        "adam_losses": [
+          {
+            "step": 1,
+            "loss": 62373.91015625
+          },
+          {
+            "step": 1000,
+            "loss": 398.795654296875
+          },
+          {
+            "step": 2000,
+            "loss": 38.28292465209961
+          },
+          {
+            "step": 3000,
+            "loss": 7.956259727478027
+          },
+          {
+            "step": 4000,
+            "loss": 4.108234405517578
+          },
+          {
+            "step": 5000,
+            "loss": 3.308985471725464
+          },
+          {
+            "step": 6000,
+            "loss": 2.2782373428344727
+          },
+          {
+            "step": 7000,
+            "loss": 1.477402687072754
+          },
+          {
+            "step": 8000,
+            "loss": 1.208145022392273
+          },
+          {
+            "step": 9000,
+            "loss": 1.2799491882324219
+          },
+          {
+            "step": 10000,
+            "loss": 1.3104134798049927
+          }
+        ],
+        "adam_seconds": 65.2661726474762,
+        "lbfgs_seconds": 264.5707597732544,
+        "lbfgs_result": {
+          "success": true,
+          "status": 0,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "nit": 10120,
+          "nfev": 11070,
+          "fun": 0.005567725747823715
+        }
+      },
+      "config": {
+        "q": 500,
+        "skip": 80,
+        "dt": 0.8,
+        "n_points": 250,
+        "hidden_layers": 3,
+        "width": 50
+      }
+    }
+  ],
+  "summary": {
+    "count": 3,
+    "mean_error": 0.0005859250437819391,
+    "std_error": 0.0002727216774016607,
+    "min_error": 0.0003427997354667561,
+    "max_error": 0.0009667814181289108,
+    "paper_error": 0.00082,
+    "mean_over_paper": 0.7145427363194379
+  }
+}

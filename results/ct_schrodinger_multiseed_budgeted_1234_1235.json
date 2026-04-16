@@ -1,0 +1,159 @@
+{
+  "runs": [
+    {
+      "experiment": "ct_schrodinger",
+      "seed": 1234,
+      "error": 0.0030694255245326176,
+      "paper_error": 0.00197,
+      "absolute_delta": 0.0010994255245326177,
+      "relative_ratio": 1.5580840226053896,
+      "train_history": {
+        "adam_losses": [
+          {
+            "step": 1,
+            "loss": 1.1271361112594604
+          },
+          {
+            "step": 1000,
+            "loss": 0.04563037306070328
+          },
+          {
+            "step": 2000,
+            "loss": 0.026724372059106827
+          },
+          {
+            "step": 3000,
+            "loss": 0.01730634644627571
+          },
+          {
+            "step": 4000,
+            "loss": 0.015834815800189972
+          },
+          {
+            "step": 5000,
+            "loss": 0.008735784329473972
+          },
+          {
+            "step": 6000,
+            "loss": 0.003965136129409075
+          },
+          {
+            "step": 7000,
+            "loss": 0.0028409461956471205
+          },
+          {
+            "step": 8000,
+            "loss": 0.03964897245168686
+          },
+          {
+            "step": 9000,
+            "loss": 0.002017528982833028
+          },
+          {
+            "step": 10000,
+            "loss": 0.0031441415194422007
+          }
+        ],
+        "adam_seconds": 875.0727648735046,
+        "lbfgs_seconds": 229.16611003875732,
+        "lbfgs_result": {
+          "success": false,
+          "status": 1,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "nit": 2000,
+          "nfev": 2132,
+          "fun": 2.1797188310301863e-05
+        }
+      },
+      "config": {
+        "n0": 50,
+        "n_b": 50,
+        "n_f": 20000,
+        "hidden_layers": 4,
+        "width": 100
+      }
+    },
+    {
+      "experiment": "ct_schrodinger",
+      "seed": 1235,
+      "error": 0.0023251902671337023,
+      "paper_error": 0.00197,
+      "absolute_delta": 0.00035519026713370233,
+      "relative_ratio": 1.180299627986651,
+      "train_history": {
+        "adam_losses": [
+          {
+            "step": 1,
+            "loss": 1.5652580261230469
+          },
+          {
+            "step": 1000,
+            "loss": 0.03864056617021561
+          },
+          {
+            "step": 2000,
+            "loss": 0.021646752953529358
+          },
+          {
+            "step": 3000,
+            "loss": 0.013704149052500725
+          },
+          {
+            "step": 4000,
+            "loss": 0.006954235024750233
+          },
+          {
+            "step": 5000,
+            "loss": 0.005502905230969191
+          },
+          {
+            "step": 6000,
+            "loss": 0.0046118395403027534
+          },
+          {
+            "step": 7000,
+            "loss": 0.0019154620822519064
+          },
+          {
+            "step": 8000,
+            "loss": 0.0017412662273272872
+          },
+          {
+            "step": 9000,
+            "loss": 0.001713029108941555
+          },
+          {
+            "step": 10000,
+            "loss": 0.0018296930938959122
+          }
+        ],
+        "adam_seconds": 881.8630430698395,
+        "lbfgs_seconds": 234.62482476234436,
+        "lbfgs_result": {
+          "success": false,
+          "status": 1,
+          "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+          "nit": 2000,
+          "nfev": 2134,
+          "fun": 1.951644298969768e-05
+        }
+      },
+      "config": {
+        "n0": 50,
+        "n_b": 50,
+        "n_f": 20000,
+        "hidden_layers": 4,
+        "width": 100
+      }
+    }
+  ],
+  "summary": {
+    "count": 2,
+    "mean_error": 0.0026973078958331597,
+    "std_error": 0.00037211762869945766,
+    "min_error": 0.0023251902671337023,
+    "max_error": 0.0030694255245326176,
+    "paper_error": 0.00197,
+    "mean_over_paper": 1.3691918252960202
+  }
+}

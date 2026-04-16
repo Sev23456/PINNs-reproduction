@@ -1,0 +1,65 @@
+{
+  "experiment": "ct_schrodinger_tf1_official",
+  "seed": 1234,
+  "error_h": 0.7594559630493923,
+  "error_u": 0.9305881600049686,
+  "error_v": 0.9872327422487683,
+  "paper_error_h": 0.00197,
+  "absolute_delta_h": 0.7574859630493923,
+  "relative_ratio_h": 385.51064114182356,
+  "train_result": {
+    "adam_seconds": 2.37967848777771,
+    "lbfgs_seconds": 1.610365867614746,
+    "adam_logs": [
+      {
+        "iter": 0.0,
+        "loss": 0.7273945212364197,
+        "seconds_since_last_log": 1.1410953998565674
+      },
+      {
+        "iter": 5.0,
+        "loss": 0.6330680251121521,
+        "seconds_since_last_log": 0.7343716621398926
+      }
+    ],
+    "lbfgs_callback_evals": 6,
+    "lbfgs_loss_tail": [
+      489.44818115234375,
+      1.0662238597869873,
+      0.5089932084083557,
+      0.48552775382995605,
+      0.46435829997062683
+    ],
+    "final_loss": 0.46435829997062683
+  },
+  "config": {
+    "n0": 50,
+    "n_b": 50,
+    "n_f": 20000,
+    "layers": [
+      2,
+      100,
+      100,
+      100,
+      100,
+      2
+    ],
+    "adam_iters": 10,
+    "tensorflow_version": "1.15.0",
+    "numpy_version": "1.16.6",
+    "protobuf_impl": "python",
+    "cuda_visible_devices": "-1"
+  },
+  "devices": [
+    {
+      "name": "/device:CPU:0",
+      "device_type": "CPU",
+      "physical_device_desc": ""
+    },
+    {
+      "name": "/device:XLA_CPU:0",
+      "device_type": "XLA_CPU",
+      "physical_device_desc": "device: XLA_CPU device"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "experiment": "ct_burgers_tf1_like",
+  "seed": 1234,
+  "error": 0.0029931376469455244,
+  "paper_error": 0.00067,
+  "absolute_delta": 0.0023231376469455244,
+  "relative_ratio": 4.4673696223067525,
+  "train_result": {
+    "seconds": 271.69899916648865,
+    "success": true,
+    "status": 0,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "nit": 4237,
+    "nfev": 4696,
+    "fun": 4.306574737711344e-06
+  },
+  "config": {
+    "n_u": 100,
+    "n_f": 10000,
+    "layers": [
+      2,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      1
+    ],
+    "tensorflow_version": "2.21.0"
+  },
+  "devices": [
+    "/physical_device:CPU:0"
+  ],
+  "gpu_devices": []
+}
